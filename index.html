@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <title>うどんべい</title>
     <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <link href="icon.png" type="image/png" rel="icon">
   </head>
   <body>
-    <h1>うどんべい 公式サイト</h1>
+  <noscript>ブラウザのJavaScriptが無効になっています。</noscript>
+  <header class="header">
+    <div class="inner" >
+      <h1 class="title">うどんべい 公式サイト</h1>
+      <nav class="nav" id="js-nav">
+        <ul class="nav_root nav-root">
+          <li class="menu_item"><a href="#">ホーム</a></li>
+          <li class="menu_item"><a href="#">ゲーム</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="js-hamburger" >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+  <footer>Copyright 2023 ウードン</footer>
   </body>
+  <script src="main.js"></script>
 </html>
